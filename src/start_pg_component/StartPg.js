@@ -24,7 +24,7 @@ function StartPg() {
         <h1>Tic Tac Toe Game </h1>
         <input type={"text"} id={"player1"} placeholder={"   Player1 Name"} value={player1_name} onChange={(e)=>setPlayer1(e.target.value)}></input><br/><br/>
         <input type={"text"} id={"player2"} placeholder={"  Player2 Name"} value={player2_name} onChange={(e)=>setPlayer2(e.target.value)}></input><br/><br/>
-        <h3>To start game</h3>
+        <h3>To start game 👇👇</h3>
         <button id="start_btn">{isValidate() ? <Link to = "/game">Start Game</Link>: "Write Above Player's Name"}</button>
 
       </div>

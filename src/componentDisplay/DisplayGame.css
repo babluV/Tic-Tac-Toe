@@ -21,20 +21,29 @@
         font-size: 2rem;
         display: inline-block;
         border: 2px solid white;
-       color: white;
-        background-color: blueviolet;
-        
+        border-radius: 8px;
+       color: black;
+        background-color: rgb(198, 194, 194);
+        width: 15em;
+height: 3em;
       
     }
-    .grid{
+    .container{
         
         border: 5px solid rgb(13, 255, 0);
         height:50rem;
-        /* background-image:url('../images/bg-img1.jpg'); */
+        background-image:url('../images/bg-img1.jpg');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .containerWon{
+        background-image:url('../images/winnerGif1.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+       height: 45rem;
+        z-index: -1;
     }
     .box{
         display: inline-block;
